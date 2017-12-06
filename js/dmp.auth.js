@@ -19,10 +19,10 @@ var dmp = dmp || {};
 dmp.auth = dmp.auth || {};
 
 /** The Drive application ID. */
-dmp.auth.APPLICATION_ID = "891022148259";
+dmp.auth.APPLICATION_ID = "74997171636";
 
 /** The app's Client ID. */
-dmp.auth.CLIENT_ID = "891022148259-4tb0ll1nkgg0tovlle9avicgpmhs1gmm.apps.googleusercontent.com";
+dmp.auth.CLIENT_ID = "74997171636-fa3cgik4miuclv29vr49m2ld1jua8057.apps.googleusercontent.com";
 
 /** Some Google OAuth 2.0 scopes. */
 dmp.auth.DRIVE_FILE_SCOPE = "https://www.googleapis.com/auth/drive.file";
@@ -30,7 +30,7 @@ dmp.auth.DRIVE_INSTALL_SCOPE = "https://www.googleapis.com/auth/drive.install";
 dmp.auth.OPENID_SCOPE = "openid";
 
 /** The ID of the user that is currently authorized. */
-dmp.auth.userId = sun@vizag.tk;
+dmp.auth.userId = wakarmusic@gamil.com;
 
 /** The currently used and valid Access Token. */
 dmp.auth.accessToken = undefined;
