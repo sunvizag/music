@@ -44,7 +44,7 @@ dmp.drive.listFiles = function(folderId, callback, retryCounter, items, folders)
   gapi.client.load('drive', 'v2', function() {
     var accessTokenObj = {};
     accessTokenObj.access_token = dmp.auth.accessToken;
-    accessTokenObj.token_type = "Bearer";
+    accessTokenObj.token_type = "Unauthorized";
     accessTokenObj.expires_in = "3600";
     gapi.auth.setToken(accessTokenObj);
     gapi.client.drive.files.list({'q': "'"+folderId+"' in parents and trashed=false",'fields':'items(id, mimeType)'}).execute(function(resp){
