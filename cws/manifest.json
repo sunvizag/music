@@ -4,13 +4,13 @@
   "manifest_version": 2,
   "description" : "Music and Audio files player for Google Drive.",
   "container" : "GOOGLE_DRIVE",
-  "api_console_project_id" : "543871781652",
+  "api_console_project_id" : "music-188210",
   "icons": {
     "128": "icon_128.png"
   },
   "app" : {
     "launch" : {
-      "web_url" : "http://www.driveplayer.com/"
+      "web_url" : "sunvizag.github.io/music"
     }
   }
 }
