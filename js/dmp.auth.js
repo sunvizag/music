@@ -22,7 +22,7 @@ dmp.auth = dmp.auth || {};
 dmp.auth.APPLICATION_ID = "74997171636";
 
 /** The app's Client ID. */
-dmp.auth.CLIENT_ID = "74997171636.apps.googleusercontent.com";
+dmp.auth.CLIENT_ID = "74997171636-fa3cgik4miuclv29vr49m2ld1jua8057.apps.googleusercontent.com";
 
 /** Some Google OAuth 2.0 scopes. */
 dmp.auth.DRIVE_FILE_SCOPE = "https://www.googleapis.com/auth/drive.file";
@@ -30,7 +30,7 @@ dmp.auth.DRIVE_INSTALL_SCOPE = "https://www.googleapis.com/auth/drive.install";
 dmp.auth.OPENID_SCOPE = "openid";
 
 /** The ID of the user that is currently authorized. */
-dmp.auth.userId = wakar-58;
+dmp.auth.userId = wakar-58@music-188210.iam.gserviceaccount.com;
 
 /** The currently used and valid Access Token. */
 dmp.auth.accessToken = undefined;
